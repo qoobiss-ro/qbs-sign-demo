@@ -1,0 +1,7 @@
+<div id="container">
+  @if (signConfig) {
+    <lib-sign [config]="signConfig" (event)="onSignEvent($event)" />
+  } @else {
+    <div class="loading">Loading...</div>
+  }
+</div>
