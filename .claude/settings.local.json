@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ng version)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(npx --yes @angular/cli@latest new qbs-sign-demo --directory . --force --routing true --style scss --ssr false)",
+      "Bash(npm install @qbs-origin/sign-lib)"
+    ]
+  }
+}
